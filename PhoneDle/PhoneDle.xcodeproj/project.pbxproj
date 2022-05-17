@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		41C5D45528335FDE008D5748 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C5D45428335FDE008D5748 /* AppDelegate.swift */; };
 		41C5D45728335FDE008D5748 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C5D45628335FDE008D5748 /* SceneDelegate.swift */; };
-		41C5D45928335FDE008D5748 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C5D45828335FDE008D5748 /* ViewController.swift */; };
 		41C5D45C28335FDE008D5748 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41C5D45A28335FDE008D5748 /* Main.storyboard */; };
 		41C5D45E28335FE3008D5748 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41C5D45D28335FE3008D5748 /* Assets.xcassets */; };
 		41C5D46128335FE3008D5748 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41C5D45F28335FE3008D5748 /* LaunchScreen.storyboard */; };
+		41C5D469283360DA008D5748 /* RouletteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C5D468283360DA008D5748 /* RouletteViewController.swift */; };
+		41C5D46B28336692008D5748 /* RGBSliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C5D46A28336692008D5748 /* RGBSliderViewController.swift */; };
+		41C5D46D28337293008D5748 /* ButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C5D46C28337293008D5748 /* ButtonViewController.swift */; };
+		41C5D46F2833739B008D5748 /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C5D46E2833739B008D5748 /* PickerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		41C5D45128335FDE008D5748 /* PhoneDle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhoneDle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41C5D45428335FDE008D5748 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41C5D45628335FDE008D5748 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		41C5D45828335FDE008D5748 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		41C5D45B28335FDE008D5748 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		41C5D45D28335FE3008D5748 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41C5D46028335FE3008D5748 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41C5D46228335FE3008D5748 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41C5D468283360DA008D5748 /* RouletteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouletteViewController.swift; sourceTree = "<group>"; };
+		41C5D46A28336692008D5748 /* RGBSliderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGBSliderViewController.swift; sourceTree = "<group>"; };
+		41C5D46C28337293008D5748 /* ButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonViewController.swift; sourceTree = "<group>"; };
+		41C5D46E2833739B008D5748 /* PickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +64,14 @@
 			children = (
 				41C5D45428335FDE008D5748 /* AppDelegate.swift */,
 				41C5D45628335FDE008D5748 /* SceneDelegate.swift */,
-				41C5D45828335FDE008D5748 /* ViewController.swift */,
 				41C5D45A28335FDE008D5748 /* Main.storyboard */,
 				41C5D45D28335FE3008D5748 /* Assets.xcassets */,
 				41C5D45F28335FE3008D5748 /* LaunchScreen.storyboard */,
 				41C5D46228335FE3008D5748 /* Info.plist */,
+				41C5D468283360DA008D5748 /* RouletteViewController.swift */,
+				41C5D46A28336692008D5748 /* RGBSliderViewController.swift */,
+				41C5D46C28337293008D5748 /* ButtonViewController.swift */,
+				41C5D46E2833739B008D5748 /* PickerViewController.swift */,
 			);
 			path = PhoneDle;
 			sourceTree = "<group>";
@@ -138,9 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41C5D45928335FDE008D5748 /* ViewController.swift in Sources */,
+				41C5D46F2833739B008D5748 /* PickerViewController.swift in Sources */,
 				41C5D45528335FDE008D5748 /* AppDelegate.swift in Sources */,
+				41C5D46B28336692008D5748 /* RGBSliderViewController.swift in Sources */,
 				41C5D45728335FDE008D5748 /* SceneDelegate.swift in Sources */,
+				41C5D46D28337293008D5748 /* ButtonViewController.swift in Sources */,
+				41C5D469283360DA008D5748 /* RouletteViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
