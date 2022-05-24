@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="9qa-NU-kI4">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Mnv-PI-Uvz">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
@@ -17,13 +17,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0cm-dQ-jBh">
-                                <rect key="frame" x="0.0" y="340" width="414" height="216"/>
-                                <connections>
-                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="BmK-63-iGh"/>
-                                    <outlet property="delegate" destination="BYZ-38-t0r" id="ovp-92-TcO"/>
-                                </connections>
-                            </pickerView>
                             <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SaT-sQ-PrP">
                                 <rect key="frame" x="196.5" y="606" width="21" height="21"/>
                                 <color key="tintColor" systemColor="systemOrangeColor"/>
@@ -35,6 +28,13 @@
                                     <action selector="shuffleButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="V8R-zf-Ic9"/>
                                 </connections>
                             </button>
+                            <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0cm-dQ-jBh">
+                                <rect key="frame" x="29" y="449" width="414" height="216"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="BmK-63-iGh"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="ovp-92-TcO"/>
+                                </connections>
+                            </pickerView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -111,6 +111,91 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aIf-Oj-DUM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2370" y="98"/>
+        </scene>
+        <!--Hello World View Controller-->
+        <scene sceneID="S0O-0H-Wvx">
+            <objects>
+                <viewController id="Mnv-PI-Uvz" customClass="HelloWorldViewController" customModule="PhoneDle" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fsv-V3-Bnz">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="fK6-8j-aX5">
+                                <rect key="frame" x="20" y="294" width="374" height="120"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OOC-LM-fpu">
+                                        <rect key="frame" x="0.0" y="0.0" width="172" height="120"/>
+                                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="120" id="fx3-K4-I4d"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="World" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E5w-hE-kgx">
+                                        <rect key="frame" x="202" y="0.0" width="172" height="120"/>
+                                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="120" id="67I-5s-GmC"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="wNf-dh-CXU"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="g1X-Pr-mR2">
+                                <rect key="frame" x="20" y="444" width="374" height="31"/>
+                                <subviews>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="uHy-Kk-pOy">
+                                        <rect key="frame" x="0.0" y="0.0" width="172" height="32"/>
+                                        <segments>
+                                            <segment title="0"/>
+                                            <segment title="0"/>
+                                            <segment title="0"/>
+                                        </segments>
+                                        <connections>
+                                            <action selector="helloSegmentChanged:" destination="Mnv-PI-Uvz" eventType="valueChanged" id="rWg-5W-ebW"/>
+                                        </connections>
+                                    </segmentedControl>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="7hl-Rw-zHW">
+                                        <rect key="frame" x="202" y="0.0" width="172" height="32"/>
+                                        <segments>
+                                            <segment title="0"/>
+                                            <segment title="0"/>
+                                            <segment title="0"/>
+                                        </segments>
+                                        <connections>
+                                            <action selector="worldSegmentChanged:" destination="Mnv-PI-Uvz" eventType="valueChanged" id="vZA-oq-p1B"/>
+                                        </connections>
+                                    </segmentedControl>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="iVG-vr-lox"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="fK6-8j-aX5" firstAttribute="top" secondItem="iVG-vr-lox" secondAttribute="top" constant="250" id="5At-vw-EQM"/>
+                            <constraint firstItem="g1X-Pr-mR2" firstAttribute="top" secondItem="fK6-8j-aX5" secondAttribute="bottom" constant="30" id="Pci-Vd-ddO"/>
+                            <constraint firstItem="iVG-vr-lox" firstAttribute="trailing" secondItem="g1X-Pr-mR2" secondAttribute="trailing" constant="20" id="VyC-cd-xcI"/>
+                            <constraint firstItem="fK6-8j-aX5" firstAttribute="leading" secondItem="iVG-vr-lox" secondAttribute="leading" constant="20" id="bRS-Ea-au1"/>
+                            <constraint firstItem="g1X-Pr-mR2" firstAttribute="leading" secondItem="iVG-vr-lox" secondAttribute="leading" constant="20" id="qkh-jN-Uq1"/>
+                            <constraint firstItem="iVG-vr-lox" firstAttribute="trailing" secondItem="fK6-8j-aX5" secondAttribute="trailing" constant="20" id="w0P-rS-yXj"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="helloLabel" destination="OOC-LM-fpu" id="nh8-o9-Oi3"/>
+                        <outlet property="helloSegment" destination="uHy-Kk-pOy" id="exq-kT-Wg8"/>
+                        <outlet property="worldLabel" destination="E5w-hE-kgx" id="5FN-yD-A6o"/>
+                        <outlet property="worldSegment" destination="7hl-Rw-zHW" id="96X-1k-0Wf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1Yp-ij-FeI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3226.0869565217395" y="97.767857142857139"/>
         </scene>
         <!--Slider View Controller-->
         <scene sceneID="riB-5x-soR">

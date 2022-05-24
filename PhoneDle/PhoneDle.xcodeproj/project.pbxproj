@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		415F294C283D17A00053271B /* HelloWorldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415F294B283D17A00053271B /* HelloWorldViewController.swift */; };
 		41C5D45528335FDE008D5748 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C5D45428335FDE008D5748 /* AppDelegate.swift */; };
 		41C5D45728335FDE008D5748 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C5D45628335FDE008D5748 /* SceneDelegate.swift */; };
 		41C5D45C28335FDE008D5748 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41C5D45A28335FDE008D5748 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		415F294B283D17A00053271B /* HelloWorldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldViewController.swift; sourceTree = "<group>"; };
 		41C5D45128335FDE008D5748 /* PhoneDle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhoneDle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41C5D45428335FDE008D5748 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41C5D45628335FDE008D5748 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				41C5D46A28336692008D5748 /* RGBSliderViewController.swift */,
 				41C5D46C28337293008D5748 /* ButtonViewController.swift */,
 				41C5D46E2833739B008D5748 /* PickerViewController.swift */,
+				415F294B283D17A00053271B /* HelloWorldViewController.swift */,
 			);
 			path = PhoneDle;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 				41C5D46F2833739B008D5748 /* PickerViewController.swift in Sources */,
 				41C5D45528335FDE008D5748 /* AppDelegate.swift in Sources */,
 				41C5D46B28336692008D5748 /* RGBSliderViewController.swift in Sources */,
+				415F294C283D17A00053271B /* HelloWorldViewController.swift in Sources */,
 				41C5D45728335FDE008D5748 /* SceneDelegate.swift in Sources */,
 				41C5D46D28337293008D5748 /* ButtonViewController.swift in Sources */,
 				41C5D469283360DA008D5748 /* RouletteViewController.swift in Sources */,
