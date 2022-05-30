@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="rlI-Gd-EQk">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="FKf-lw-Ubz">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
@@ -365,6 +365,53 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w4r-1z-ziV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4100" y="98"/>
+        </scene>
+        <!--Text Button View Controller-->
+        <scene sceneID="tX6-il-sBc">
+            <objects>
+                <viewController id="FKf-lw-Ubz" customClass="TextButtonViewController" customModule="PhoneDle" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uo5-hV-J6A">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JsC-ef-3Jo">
+                                <rect key="frame" x="152" y="277.5" width="110" height="72"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Hello">
+                                    <color key="titleColor" systemColor="systemOrangeColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="fakeTouched:" destination="FKf-lw-Ubz" eventType="touchUpInside" id="ccP-21-tXu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LVY-jo-AHv">
+                                <rect key="frame" x="197" y="437" width="20" height="22"/>
+                                <color key="tintColor" systemColor="systemOrangeColor"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" image="circle.inset.filled" catalog="system"/>
+                                <connections>
+                                    <action selector="clearButtonPushed:" destination="FKf-lw-Ubz" eventType="touchUpInside" id="fDO-fg-3p7"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Wep-7Q-kCM"/>
+                        <color key="backgroundColor" systemColor="labelColor"/>
+                        <constraints>
+                            <constraint firstItem="LVY-jo-AHv" firstAttribute="centerY" secondItem="uo5-hV-J6A" secondAttribute="centerY" id="1R4-E0-9GT"/>
+                            <constraint firstItem="JsC-ef-3Jo" firstAttribute="centerY" secondItem="uo5-hV-J6A" secondAttribute="centerY" multiplier="0.7" id="ToM-xY-Dtu"/>
+                            <constraint firstItem="LVY-jo-AHv" firstAttribute="centerX" secondItem="uo5-hV-J6A" secondAttribute="centerX" id="eTA-SF-Uu8"/>
+                            <constraint firstItem="JsC-ef-3Jo" firstAttribute="centerX" secondItem="uo5-hV-J6A" secondAttribute="centerX" id="fbK-be-P1S"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="HelloButton" destination="JsC-ef-3Jo" id="7Bb-ft-xP3"/>
+                        <outlet property="clearButton" destination="LVY-jo-AHv" id="1S6-BT-Cbp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YcI-Ei-tDo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5000" y="97.767857142857139"/>
         </scene>
         <!--Slider View Controller-->
         <scene sceneID="riB-5x-soR">

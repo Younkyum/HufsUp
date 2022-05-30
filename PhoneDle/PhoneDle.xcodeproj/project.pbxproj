@@ -10,6 +10,7 @@
 		415F294C283D17A00053271B /* HelloWorldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415F294B283D17A00053271B /* HelloWorldViewController.swift */; };
 		415F2996284542C20053271B /* StackviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415F2995284542C20053271B /* StackviewViewController.swift */; };
 		415F29982845468B0053271B /* extension-UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415F29972845468B0053271B /* extension-UIView.swift */; };
+		415F299A28454EFB0053271B /* TextButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415F299928454EFB0053271B /* TextButtonViewController.swift */; };
 		41C5D45528335FDE008D5748 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C5D45428335FDE008D5748 /* AppDelegate.swift */; };
 		41C5D45728335FDE008D5748 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C5D45628335FDE008D5748 /* SceneDelegate.swift */; };
 		41C5D45C28335FDE008D5748 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41C5D45A28335FDE008D5748 /* Main.storyboard */; };
@@ -25,6 +26,7 @@
 		415F294B283D17A00053271B /* HelloWorldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldViewController.swift; sourceTree = "<group>"; };
 		415F2995284542C20053271B /* StackviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackviewViewController.swift; sourceTree = "<group>"; };
 		415F29972845468B0053271B /* extension-UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "extension-UIView.swift"; path = "../../../../extension-UIView.swift"; sourceTree = "<group>"; };
+		415F299928454EFB0053271B /* TextButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextButtonViewController.swift; sourceTree = "<group>"; };
 		41C5D45128335FDE008D5748 /* PhoneDle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhoneDle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41C5D45428335FDE008D5748 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41C5D45628335FDE008D5748 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 				415F294B283D17A00053271B /* HelloWorldViewController.swift */,
 				415F2995284542C20053271B /* StackviewViewController.swift */,
 				415F29972845468B0053271B /* extension-UIView.swift */,
+				415F299928454EFB0053271B /* TextButtonViewController.swift */,
 			);
 			path = PhoneDle;
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 				415F29982845468B0053271B /* extension-UIView.swift in Sources */,
 				41C5D46D28337293008D5748 /* ButtonViewController.swift in Sources */,
 				41C5D469283360DA008D5748 /* RouletteViewController.swift in Sources */,
+				415F299A28454EFB0053271B /* TextButtonViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
