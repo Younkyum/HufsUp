@@ -27,25 +27,11 @@ class RGBSliderViewController: UIViewController {
         blueSlider.thumbTintColor = color
         
         if  (r > 0.95) && (g > 0.55 && g < 0.6) && b < 0.1 {
-            print("clear")
-            turnPage()
+            DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 0.3) {
+                complete(main: self)
+            }
         }
         
-    }
-    
-    func turnPage(){
-        // 스토리 보드 객체 가져오기 (인자 : 이름, 읽어들일 위치)
-        let storyboard: UIStoryboard? = UIStoryboard(name: "Main", bundle: Bundle.main)
-                
-        // 뷰 객체 얻어오기 (storyboard ID로 ViewController구분)
-        guard let uvc = storyboard?.instantiateViewController(identifier: "RouletteViewController") else {
-            return
-        }
-        
-        // 화면 전환 애니메이션 설정
-        uvc.modalTransitionStyle = UIModalTransitionStyle.coverVertical
-        
-        self.present(uvc, animated: true)
     }
     
     override func viewDidLoad() {

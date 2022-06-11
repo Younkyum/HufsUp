@@ -36,7 +36,10 @@ class HelloWorldViewController: UIViewController {
     
     func isClaer() {
         if helloLabel.textAlignment.rawValue == 2 && worldLabel.textAlignment.rawValue == 0 {
-            print("clear")
+            DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 0.3) {
+                complete(main: self)
+            }
+
         }
     }
 }

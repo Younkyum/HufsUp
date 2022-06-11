@@ -35,7 +35,10 @@ class StackviewViewController: UIViewController {
         }
         
         if thirdStack.axis == .vertical && secondStack.axis == .vertical && firstStack.axis == .vertical {
-            print("clear")
+            DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 0.3) {
+                complete(main: self)
+            }
+
         }
     }
     

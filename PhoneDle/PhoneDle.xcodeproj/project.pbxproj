@@ -7,10 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		414DC650284F0B2A00363498 /* DetectChargeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414DC64F284F0B2A00363498 /* DetectChargeViewController.swift */; };
+		414DC653284F0CD100363498 /* BorderAnimation1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414DC652284F0CD100363498 /* BorderAnimation1.swift */; };
+		414DC655284F0D6100363498 /* EdgeSwipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414DC654284F0D6100363498 /* EdgeSwipeViewController.swift */; };
+		414DC657284F11A000363498 /* RandomTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414DC656284F11A000363498 /* RandomTextViewController.swift */; };
+		414DC659284F131A00363498 /* RandomTimeTouchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414DC658284F131A00363498 /* RandomTimeTouchViewController.swift */; };
+		414DC65C284F136200363498 /* LongTouchCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414DC65B284F136200363498 /* LongTouchCollectionViewCell.swift */; };
+		414DC65E284F157500363498 /* BorderAnimation2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414DC65D284F157500363498 /* BorderAnimation2.swift */; };
+		414DC660284F15BA00363498 /* ScreenShotDetectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414DC65F284F15BA00363498 /* ScreenShotDetectViewController.swift */; };
+		414DC662284F161900363498 /* ScreenLotationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414DC661284F161900363498 /* ScreenLotationViewController.swift */; };
+		414DC664284F179500363498 /* ShakeYourPhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414DC663284F179500363498 /* ShakeYourPhoneViewController.swift */; };
+		414DC666284F186B00363498 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414DC665284F186B00363498 /* Reachability.swift */; };
+		414DC668284F18BE00363498 /* TurnOnWiFiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414DC667284F18BE00363498 /* TurnOnWiFiViewController.swift */; };
 		415F294C283D17A00053271B /* HelloWorldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415F294B283D17A00053271B /* HelloWorldViewController.swift */; };
 		415F2996284542C20053271B /* StackviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415F2995284542C20053271B /* StackviewViewController.swift */; };
 		415F29982845468B0053271B /* extension-UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415F29972845468B0053271B /* extension-UIView.swift */; };
 		415F299A28454EFB0053271B /* TextButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415F299928454EFB0053271B /* TextButtonViewController.swift */; };
+		418D74AE284DAAA3008B9BA2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418D74AD284DAAA3008B9BA2 /* HomeViewController.swift */; };
+		418D74B2284DAB77008B9BA2 /* LevelCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418D74B0284DAB77008B9BA2 /* LevelCollectionViewCell.swift */; };
+		418D74B3284DAB77008B9BA2 /* LevelCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 418D74B1284DAB77008B9BA2 /* LevelCollectionViewCell.xib */; };
+		418D74B6284DBB22008B9BA2 /* DragViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418D74B5284DBB22008B9BA2 /* DragViewController.swift */; };
+		418D74B8284DBD50008B9BA2 /* NoTapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418D74B7284DBD50008B9BA2 /* NoTapViewController.swift */; };
+		418D74BA284DBED1008B9BA2 /* OrderTouchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418D74B9284DBED1008B9BA2 /* OrderTouchViewController.swift */; };
+		418D74BC284DC006008B9BA2 /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418D74BB284DC006008B9BA2 /* AlertViewController.swift */; };
+		418D74BE284DC092008B9BA2 /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418D74BD284DC092008B9BA2 /* DatePickerViewController.swift */; };
+		418D74C0284DC20C008B9BA2 /* PinchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418D74BF284DC20C008B9BA2 /* PinchViewController.swift */; };
+		418D74C3284DC500008B9BA2 /* SwipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418D74C2284DC500008B9BA2 /* SwipeViewController.swift */; };
+		418D74C5284DC6C8008B9BA2 /* TableButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418D74C4284DC6C8008B9BA2 /* TableButtonViewController.swift */; };
 		41C5D45528335FDE008D5748 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C5D45428335FDE008D5748 /* AppDelegate.swift */; };
 		41C5D45728335FDE008D5748 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C5D45628335FDE008D5748 /* SceneDelegate.swift */; };
 		41C5D45C28335FDE008D5748 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41C5D45A28335FDE008D5748 /* Main.storyboard */; };
@@ -20,13 +43,38 @@
 		41C5D46B28336692008D5748 /* RGBSliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C5D46A28336692008D5748 /* RGBSliderViewController.swift */; };
 		41C5D46D28337293008D5748 /* ButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C5D46C28337293008D5748 /* ButtonViewController.swift */; };
 		41C5D46F2833739B008D5748 /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C5D46E2833739B008D5748 /* PickerViewController.swift */; };
+		41CA2A6C28518692009C1FAE /* CompleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CA2A6B28518692009C1FAE /* CompleteViewController.swift */; };
+		41CA2A6E28518A53009C1FAE /* utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CA2A6D28518A53009C1FAE /* utilities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		414DC64F284F0B2A00363498 /* DetectChargeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectChargeViewController.swift; sourceTree = "<group>"; };
+		414DC652284F0CD100363498 /* BorderAnimation1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderAnimation1.swift; sourceTree = "<group>"; };
+		414DC654284F0D6100363498 /* EdgeSwipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdgeSwipeViewController.swift; sourceTree = "<group>"; };
+		414DC656284F11A000363498 /* RandomTextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomTextViewController.swift; sourceTree = "<group>"; };
+		414DC658284F131A00363498 /* RandomTimeTouchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomTimeTouchViewController.swift; sourceTree = "<group>"; };
+		414DC65B284F136200363498 /* LongTouchCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongTouchCollectionViewCell.swift; sourceTree = "<group>"; };
+		414DC65D284F157500363498 /* BorderAnimation2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderAnimation2.swift; sourceTree = "<group>"; };
+		414DC65F284F15BA00363498 /* ScreenShotDetectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenShotDetectViewController.swift; sourceTree = "<group>"; };
+		414DC661284F161900363498 /* ScreenLotationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenLotationViewController.swift; sourceTree = "<group>"; };
+		414DC663284F179500363498 /* ShakeYourPhoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeYourPhoneViewController.swift; sourceTree = "<group>"; };
+		414DC665284F186B00363498 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		414DC667284F18BE00363498 /* TurnOnWiFiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurnOnWiFiViewController.swift; sourceTree = "<group>"; };
 		415F294B283D17A00053271B /* HelloWorldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldViewController.swift; sourceTree = "<group>"; };
 		415F2995284542C20053271B /* StackviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackviewViewController.swift; sourceTree = "<group>"; };
 		415F29972845468B0053271B /* extension-UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "extension-UIView.swift"; path = "../../../../extension-UIView.swift"; sourceTree = "<group>"; };
 		415F299928454EFB0053271B /* TextButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextButtonViewController.swift; sourceTree = "<group>"; };
+		418D74AD284DAAA3008B9BA2 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		418D74B0284DAB77008B9BA2 /* LevelCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelCollectionViewCell.swift; sourceTree = "<group>"; };
+		418D74B1284DAB77008B9BA2 /* LevelCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LevelCollectionViewCell.xib; sourceTree = "<group>"; };
+		418D74B5284DBB22008B9BA2 /* DragViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragViewController.swift; sourceTree = "<group>"; };
+		418D74B7284DBD50008B9BA2 /* NoTapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoTapViewController.swift; sourceTree = "<group>"; };
+		418D74B9284DBED1008B9BA2 /* OrderTouchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTouchViewController.swift; sourceTree = "<group>"; };
+		418D74BB284DC006008B9BA2 /* AlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
+		418D74BD284DC092008B9BA2 /* DatePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
+		418D74BF284DC20C008B9BA2 /* PinchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinchViewController.swift; sourceTree = "<group>"; };
+		418D74C2284DC500008B9BA2 /* SwipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeViewController.swift; sourceTree = "<group>"; };
+		418D74C4284DC6C8008B9BA2 /* TableButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableButtonViewController.swift; sourceTree = "<group>"; };
 		41C5D45128335FDE008D5748 /* PhoneDle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhoneDle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41C5D45428335FDE008D5748 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41C5D45628335FDE008D5748 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +86,8 @@
 		41C5D46A28336692008D5748 /* RGBSliderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGBSliderViewController.swift; sourceTree = "<group>"; };
 		41C5D46C28337293008D5748 /* ButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonViewController.swift; sourceTree = "<group>"; };
 		41C5D46E2833739B008D5748 /* PickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
+		41CA2A6B28518692009C1FAE /* CompleteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteViewController.swift; sourceTree = "<group>"; };
+		41CA2A6D28518A53009C1FAE /* utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = utilities.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +101,88 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		414DC64E284F0B0300363498 /* Purple */ = {
+			isa = PBXGroup;
+			children = (
+				414DC65A284F133800363498 /* cells */,
+				414DC64F284F0B2A00363498 /* DetectChargeViewController.swift */,
+				414DC654284F0D6100363498 /* EdgeSwipeViewController.swift */,
+				414DC656284F11A000363498 /* RandomTextViewController.swift */,
+				414DC658284F131A00363498 /* RandomTimeTouchViewController.swift */,
+				414DC65F284F15BA00363498 /* ScreenShotDetectViewController.swift */,
+				414DC661284F161900363498 /* ScreenLotationViewController.swift */,
+				414DC663284F179500363498 /* ShakeYourPhoneViewController.swift */,
+				414DC667284F18BE00363498 /* TurnOnWiFiViewController.swift */,
+			);
+			path = Purple;
+			sourceTree = "<group>";
+		};
+		414DC651284F0CC300363498 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				414DC652284F0CD100363498 /* BorderAnimation1.swift */,
+				414DC65D284F157500363498 /* BorderAnimation2.swift */,
+				414DC665284F186B00363498 /* Reachability.swift */,
+				41CA2A6D28518A53009C1FAE /* utilities.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		414DC65A284F133800363498 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				414DC65B284F136200363498 /* LongTouchCollectionViewCell.swift */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+		418D74AB284DAA5D008B9BA2 /* Orange */ = {
+			isa = PBXGroup;
+			children = (
+				41C5D468283360DA008D5748 /* RouletteViewController.swift */,
+				41C5D46A28336692008D5748 /* RGBSliderViewController.swift */,
+				41C5D46C28337293008D5748 /* ButtonViewController.swift */,
+				41C5D46E2833739B008D5748 /* PickerViewController.swift */,
+				415F294B283D17A00053271B /* HelloWorldViewController.swift */,
+				415F2995284542C20053271B /* StackviewViewController.swift */,
+				415F299928454EFB0053271B /* TextButtonViewController.swift */,
+			);
+			path = Orange;
+			sourceTree = "<group>";
+		};
+		418D74AC284DAA91008B9BA2 /* Defaults */ = {
+			isa = PBXGroup;
+			children = (
+				418D74AD284DAAA3008B9BA2 /* HomeViewController.swift */,
+				41CA2A6B28518692009C1FAE /* CompleteViewController.swift */,
+			);
+			path = Defaults;
+			sourceTree = "<group>";
+		};
+		418D74AF284DAB5A008B9BA2 /* levelCells */ = {
+			isa = PBXGroup;
+			children = (
+				418D74B0284DAB77008B9BA2 /* LevelCollectionViewCell.swift */,
+				418D74B1284DAB77008B9BA2 /* LevelCollectionViewCell.xib */,
+			);
+			path = levelCells;
+			sourceTree = "<group>";
+		};
+		418D74B4284DBA3D008B9BA2 /* Green */ = {
+			isa = PBXGroup;
+			children = (
+				418D74B5284DBB22008B9BA2 /* DragViewController.swift */,
+				418D74B7284DBD50008B9BA2 /* NoTapViewController.swift */,
+				418D74B9284DBED1008B9BA2 /* OrderTouchViewController.swift */,
+				418D74BB284DC006008B9BA2 /* AlertViewController.swift */,
+				418D74BD284DC092008B9BA2 /* DatePickerViewController.swift */,
+				418D74BF284DC20C008B9BA2 /* PinchViewController.swift */,
+				418D74C2284DC500008B9BA2 /* SwipeViewController.swift */,
+				418D74C4284DC6C8008B9BA2 /* TableButtonViewController.swift */,
+			);
+			path = Green;
+			sourceTree = "<group>";
+		};
 		41C5D44828335FDE008D5748 = {
 			isa = PBXGroup;
 			children = (
@@ -70,20 +202,19 @@
 		41C5D45328335FDE008D5748 /* PhoneDle */ = {
 			isa = PBXGroup;
 			children = (
+				414DC651284F0CC300363498 /* extensions */,
+				414DC64E284F0B0300363498 /* Purple */,
+				418D74B4284DBA3D008B9BA2 /* Green */,
+				418D74AF284DAB5A008B9BA2 /* levelCells */,
+				418D74AC284DAA91008B9BA2 /* Defaults */,
+				418D74AB284DAA5D008B9BA2 /* Orange */,
 				41C5D45428335FDE008D5748 /* AppDelegate.swift */,
 				41C5D45628335FDE008D5748 /* SceneDelegate.swift */,
 				41C5D45A28335FDE008D5748 /* Main.storyboard */,
 				41C5D45D28335FE3008D5748 /* Assets.xcassets */,
 				41C5D45F28335FE3008D5748 /* LaunchScreen.storyboard */,
 				41C5D46228335FE3008D5748 /* Info.plist */,
-				41C5D468283360DA008D5748 /* RouletteViewController.swift */,
-				41C5D46A28336692008D5748 /* RGBSliderViewController.swift */,
-				41C5D46C28337293008D5748 /* ButtonViewController.swift */,
-				41C5D46E2833739B008D5748 /* PickerViewController.swift */,
-				415F294B283D17A00053271B /* HelloWorldViewController.swift */,
-				415F2995284542C20053271B /* StackviewViewController.swift */,
 				415F29972845468B0053271B /* extension-UIView.swift */,
-				415F299928454EFB0053271B /* TextButtonViewController.swift */,
 			);
 			path = PhoneDle;
 			sourceTree = "<group>";
@@ -149,6 +280,7 @@
 				41C5D46128335FE3008D5748 /* LaunchScreen.storyboard in Resources */,
 				41C5D45E28335FE3008D5748 /* Assets.xcassets in Resources */,
 				41C5D45C28335FDE008D5748 /* Main.storyboard in Resources */,
+				418D74B3284DAB77008B9BA2 /* LevelCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,14 +293,38 @@
 			files = (
 				415F2996284542C20053271B /* StackviewViewController.swift in Sources */,
 				41C5D46F2833739B008D5748 /* PickerViewController.swift in Sources */,
+				414DC653284F0CD100363498 /* BorderAnimation1.swift in Sources */,
 				41C5D45528335FDE008D5748 /* AppDelegate.swift in Sources */,
+				414DC65C284F136200363498 /* LongTouchCollectionViewCell.swift in Sources */,
+				418D74B2284DAB77008B9BA2 /* LevelCollectionViewCell.swift in Sources */,
 				41C5D46B28336692008D5748 /* RGBSliderViewController.swift in Sources */,
 				415F294C283D17A00053271B /* HelloWorldViewController.swift in Sources */,
+				41CA2A6E28518A53009C1FAE /* utilities.swift in Sources */,
 				41C5D45728335FDE008D5748 /* SceneDelegate.swift in Sources */,
 				415F29982845468B0053271B /* extension-UIView.swift in Sources */,
+				418D74B6284DBB22008B9BA2 /* DragViewController.swift in Sources */,
+				418D74AE284DAAA3008B9BA2 /* HomeViewController.swift in Sources */,
+				414DC650284F0B2A00363498 /* DetectChargeViewController.swift in Sources */,
+				414DC668284F18BE00363498 /* TurnOnWiFiViewController.swift in Sources */,
 				41C5D46D28337293008D5748 /* ButtonViewController.swift in Sources */,
+				414DC662284F161900363498 /* ScreenLotationViewController.swift in Sources */,
+				418D74C0284DC20C008B9BA2 /* PinchViewController.swift in Sources */,
+				418D74C3284DC500008B9BA2 /* SwipeViewController.swift in Sources */,
+				414DC65E284F157500363498 /* BorderAnimation2.swift in Sources */,
+				414DC666284F186B00363498 /* Reachability.swift in Sources */,
+				418D74BC284DC006008B9BA2 /* AlertViewController.swift in Sources */,
+				414DC664284F179500363498 /* ShakeYourPhoneViewController.swift in Sources */,
+				418D74BE284DC092008B9BA2 /* DatePickerViewController.swift in Sources */,
 				41C5D469283360DA008D5748 /* RouletteViewController.swift in Sources */,
 				415F299A28454EFB0053271B /* TextButtonViewController.swift in Sources */,
+				414DC660284F15BA00363498 /* ScreenShotDetectViewController.swift in Sources */,
+				41CA2A6C28518692009C1FAE /* CompleteViewController.swift in Sources */,
+				418D74C5284DC6C8008B9BA2 /* TableButtonViewController.swift in Sources */,
+				418D74B8284DBD50008B9BA2 /* NoTapViewController.swift in Sources */,
+				414DC659284F131A00363498 /* RandomTimeTouchViewController.swift in Sources */,
+				414DC655284F0D6100363498 /* EdgeSwipeViewController.swift in Sources */,
+				414DC657284F11A000363498 /* RandomTextViewController.swift in Sources */,
+				418D74BA284DBED1008B9BA2 /* OrderTouchViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

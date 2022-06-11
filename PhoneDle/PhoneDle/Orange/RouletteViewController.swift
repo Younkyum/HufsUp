@@ -26,8 +26,11 @@ class RouletteViewController: UIViewController {
         picerView.selectRow(thirdIndex, inComponent: 2, animated: true)
         
         if firstIndex == secondIndex && secondIndex == thirdIndex {
-            print("clear")
-            turnPage()
+            DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 0.3) {
+                complete(main: self)
+            }
+           
+
         }
     }
     
@@ -41,23 +44,7 @@ class RouletteViewController: UIViewController {
         shuffleButton(1)
         // Do any additional setup after loading the view.
     }
-    
-    
-    func turnPage(){
-        // 스토리 보드 객체 가져오기 (인자 : 이름, 읽어들일 위치)
-        let storyboard: UIStoryboard? = UIStoryboard(name: "Main", bundle: Bundle.main)
-                
-        // 뷰 객체 얻어오기 (storyboard ID로 ViewController구분)
-        guard let uvc = storyboard?.instantiateViewController(identifier: "RGBSliderViewController") else {
-            return
-        }
-        
-        // 화면 전환 애니메이션 설정
-        uvc.modalTransitionStyle = UIModalTransitionStyle.coverVertical
-        
-        self.present(uvc, animated: true)
-    }
-    
+
     
 }
 

@@ -16,7 +16,9 @@ class ButtonViewController: UIViewController {
     }
     
     @IBAction func buttonTouched(_ sender: Any) {
-        print("clear")
+        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 0.3) {
+            complete(main: self)
+        }
     }
     
     /*

@@ -30,7 +30,8 @@ class TextButtonViewController: UIViewController {
         }
     }
     @IBAction func clearButtonPushed(_ sender: Any) {
-        print("clear")
+        complete(main: self)
+
     }
     
 }
