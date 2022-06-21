@@ -21,6 +21,7 @@ class AlertViewController: UIViewController {
         let alert = UIAlertController(title: "PASS", message: "What should you touch?", preferredStyle: UIAlertController.Style.alert)
         let yes = UIAlertAction(title: "YES", style: .default, handler: {
             action in
+            colorall(index: 51)
             complete(main: self)
         })
         let no = UIAlertAction(title: "NO", style: .destructive, handler: nil)

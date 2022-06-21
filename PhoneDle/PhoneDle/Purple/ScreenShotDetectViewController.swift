@@ -18,6 +18,7 @@ class ScreenShotDetectViewController: UIViewController {
         
         NotificationCenter.default.addObserver(forName: UIApplication.userDidTakeScreenshotNotification, object: nil, queue: OperationQueue.main) { notification in
             print("done")
+            colorall(index: 32)
             complete(main: self)
         }
     }

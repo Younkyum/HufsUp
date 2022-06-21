@@ -13,3 +13,10 @@ func complete(main: UIViewController) {
     main.navigationController?.pushViewController(nextVC, animated: true)
 }
 
+func colorall(index: Int) {
+    var list = UserDefaults.standard.array(forKey: clearlistKey)!
+    list[index] = 1
+    UserDefaults.standard.set(list, forKey: clearlistKey)
+    print(index)
+    print("cleared")
+}

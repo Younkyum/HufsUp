@@ -44,6 +44,7 @@ class RandomTimeTouchViewController: UIViewController {
     
     @IBAction func longTouch(_ sender: UILongPressGestureRecognizer) {
         if sender.state == .began {
+            colorall(index: 31)
             print("complete!")
             complete(main: self)
         } else if sender.state == .ended {

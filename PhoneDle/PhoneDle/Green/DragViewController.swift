@@ -45,6 +45,7 @@ class DragViewController: UIViewController {
         if draggedView.center.x < 202.5 && draggedView.center.x > 198.5 {
             if draggedView.center.y < 202.5 && draggedView.center.y > 198.5 {
                 print("--COMPLETE--")
+                colorall(index: 45)
                 complete(main: self)
             }
         }

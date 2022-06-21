@@ -17,6 +17,7 @@ class ButtonViewController: UIViewController {
     
     @IBAction func buttonTouched(_ sender: Any) {
         DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 0.3) {
+            colorall(index: 16)
             complete(main: self)
         }
     }

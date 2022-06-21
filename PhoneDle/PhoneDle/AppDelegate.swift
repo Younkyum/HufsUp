@@ -7,6 +7,9 @@
 
 import UIKit
 
+let initialKey = "initialKey"
+let clearlistKey = "clearlistKey"
+
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -15,6 +18,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
+        if !UserDefaults.standard.bool(forKey: initialKey) {
+            UserDefaults.standard.set(Array(repeating: 0, count: 77), forKey: clearlistKey)
+            UserDefaults.standard.set(true, forKey: initialKey)
+        }
+        
+
+
         do {
             try Network.reachability = Reachability(hostname: "www.google.com")
         }

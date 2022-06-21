@@ -18,8 +18,8 @@ class HomeViewController: UIViewController {
     let orange = [8, 15, 16, 22, 23, 24, 30]
     let purple = [18, 25, 26, 31, 32, 33, 38, 39]
     let blue = [36, 37, 43, 44]
-    var cleared: [Int] = [0]
-    
+    var clearList = UserDefaults.standard.array(forKey: clearlistKey)!
+
     
     // MARK: - IBOutlets
     @IBOutlet weak var levelCollection: UICollectionView!
@@ -29,6 +29,13 @@ class HomeViewController: UIViewController {
     let sectionInsets = UIEdgeInsets(top: 2, left: 2, bottom: 2, right: 2)
     
     // MARK: - View Cycles
+    
+    override func viewWillAppear(_ animated: Bool) {
+        self.navigationController?.isNavigationBarHidden = false
+        clearList = UserDefaults.standard.array(forKey: clearlistKey)!
+        levelCollection.reloadData()
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         levelCollection.register(UINib(nibName: "LevelCollectionViewCell", bundle: .main), forCellWithReuseIdentifier: "LevelCollectionViewCell")
@@ -57,20 +64,24 @@ extension HomeViewController: UICollectionViewDelegate, UICollectionViewDataSour
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "LevelCollectionViewCell", for: indexPath) as? LevelCollectionViewCell else { return UICollectionViewCell() }
         
-        if green.contains(indexPath.row) {
+        if clearList[indexPath.row] as! Int == 0 {
             cell.squareImage.image = isClearImage[0]
+        } else {
+            cell.squareImage.image = isClearImage[1]
+        }
+            
+
+        
+        if green.contains(indexPath.row) {
             cell.squareImage.tintColor = colors[3]
             cell.squareImage.alpha = 1
         } else if orange.contains(indexPath.row) {
-            cell.squareImage.image = isClearImage[0]
             cell.squareImage.tintColor = colors[0]
             cell.squareImage.alpha = 1
         } else if purple.contains(indexPath.row) {
-            cell.squareImage.image = isClearImage[0]
             cell.squareImage.tintColor = colors[1]
             cell.squareImage.alpha = 1
         } else if blue.contains(indexPath.row) {
-            cell.squareImage.image = isClearImage[0]
             cell.squareImage.tintColor = colors[2]
             cell.squareImage.alpha = 1
         } else {

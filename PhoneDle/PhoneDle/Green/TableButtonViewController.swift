@@ -39,6 +39,7 @@ extension TableButtonViewController : UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         print(tableViewItems[indexPath.row])
         if tableViewItems[indexPath.row] == "phonDLE" {
+            colorall(index: 67)
             complete(main: self)
         }
     }

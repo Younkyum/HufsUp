@@ -39,6 +39,7 @@ class ShakeYourPhoneViewController: UIViewController {
                     let z = data.rotationRate.z
                     if (x >= 0.8 && z >= 0.8 && y >= 0.8) {
                         print("complete")
+                        colorall(index: 38)
                         complete(main: self)
                         self.stopGyros()
                         self.stopRepeat()

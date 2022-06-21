@@ -32,6 +32,7 @@ class ScreenLotationViewController: UIViewController {
     override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
         determineScreenRotation()
         print("completed")
+        colorall(index: 33)
         complete(main: self)
     }
     

@@ -77,6 +77,7 @@ class RandomTextViewController: UIViewController, UITextFieldDelegate {
     @IBAction func textChanged(_ sender: UITextField) {
         print(sender.text)
         if sender.text == randomTextView.text {
+            colorall(index: 26)
             complete(main: self)
             
         }

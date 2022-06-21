@@ -37,6 +37,7 @@ class NoTapViewController: UIViewController {
     
 
     @objc func didTapView(_ sender: UITapGestureRecognizer) {
+        colorall(index: 46)
         complete(main: self)
     }
 

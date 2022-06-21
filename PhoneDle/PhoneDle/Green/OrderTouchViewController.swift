@@ -52,6 +52,7 @@ class OrderTouchViewController: UIViewController {
     
     func checkWord() {
         if word == "PASS" {
+            colorall(index: 47)
             complete(main: self)
         }
         else {

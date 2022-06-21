@@ -43,6 +43,7 @@ class TurnOnWiFiViewController: UIViewController {
             print("complete")
             internetImageView.image = UIImage(named: highInternet)?.withTintColor(.white)
             self.view.addSubview(internetImageView)
+            colorall(index: 39)
             complete(main: self)
         }
     }

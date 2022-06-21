@@ -20,6 +20,7 @@ class SwipeViewController: UIViewController {
     
     @IBAction func swiped(_ sender: Any) {
         if swipeRec.direction == .left {
+            colorall(index: 60)
             complete(main: self)
         }
     }

@@ -47,6 +47,7 @@ class DetectChargeViewController: UIViewController {
         UIDevice.current.isBatteryMonitoringEnabled = true
         
         if (UIDevice.current.batteryState != .unplugged) {
+            colorall(index: 18)
             complete(main: self)
             stopRepeat()
         } else {

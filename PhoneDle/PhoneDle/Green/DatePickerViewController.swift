@@ -85,6 +85,7 @@ class DatePickerViewController: UIViewController {
         
         if pickedString == nowString {
             sender.setValue(UIColor.green, forKey: "textColor")
+            colorall(index: 52)
             complete(main: self)
         }
         else {

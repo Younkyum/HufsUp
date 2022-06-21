@@ -32,6 +32,7 @@ class PickerViewController: UIViewController {
         labelText.text = locations[firstText] + " " + words[secondText]
         
         if firstText == 8 && secondText == 4 {
+            colorall(index: 22)
             complete(main: self)
 
         }

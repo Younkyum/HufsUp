@@ -28,6 +28,7 @@ class RGBSliderViewController: UIViewController {
         
         if  (r > 0.95) && (g > 0.55 && g < 0.6) && b < 0.1 {
             DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 0.3) {
+                colorall(index: 15)
                 complete(main: self)
             }
         }

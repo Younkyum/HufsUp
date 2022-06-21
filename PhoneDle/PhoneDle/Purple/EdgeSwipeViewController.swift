@@ -58,6 +58,7 @@ class EdgeSwipeViewController: UIViewController, UIGestureRecognizerDelegate {
       }
     @objc func changeVC() {
         if checker && !isTurn{
+            colorall(index: 25)
             complete(main: self)
             isTurn = true
         }
