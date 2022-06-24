@@ -33,7 +33,7 @@ class PickerViewController: UIViewController {
         
         if firstText == 8 && secondText == 4 {
             colorall(index: 22)
-            complete(main: self)
+            completeO(main: self)
 
         }
         

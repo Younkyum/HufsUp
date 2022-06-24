@@ -40,7 +40,7 @@ extension TableButtonViewController : UITableViewDelegate {
         print(tableViewItems[indexPath.row])
         if tableViewItems[indexPath.row] == "phonDLE" {
             colorall(index: 67)
-            complete(main: self)
+            completeG(main: self)
         }
     }
 }

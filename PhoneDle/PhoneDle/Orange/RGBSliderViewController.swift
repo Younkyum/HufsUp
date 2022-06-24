@@ -13,6 +13,8 @@ class RGBSliderViewController: UIViewController {
     @IBOutlet weak var greenSlider: UISlider!
     @IBOutlet weak var blueSlider: UISlider!
     
+    var isClear = false
+    
     @IBAction func sliderChange(_ sender: Any) {
         let r = CGFloat(redSlider.value)
         let g = CGFloat(greenSlider.value)
@@ -26,10 +28,11 @@ class RGBSliderViewController: UIViewController {
         greenSlider.thumbTintColor = color
         blueSlider.thumbTintColor = color
         
-        if  (r > 0.95) && (g > 0.55 && g < 0.6) && b < 0.1 {
+        if  (r > 0.95) && (g > 0.55 && g < 0.6) && b < 0.1 && !isClear {
+            isClear = true
             DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 0.3) {
                 colorall(index: 15)
-                complete(main: self)
+                completeO(main: self)
             }
         }
         
@@ -37,6 +40,8 @@ class RGBSliderViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        isClear = false
         
         redSlider.setValue(0, animated: true)
         greenSlider.setValue(0, animated: true)

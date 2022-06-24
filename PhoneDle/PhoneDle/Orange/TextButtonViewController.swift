@@ -31,7 +31,7 @@ class TextButtonViewController: UIViewController {
     }
     @IBAction func clearButtonPushed(_ sender: Any) {
         colorall(index: 30)
-        complete(main: self)
+        completeO(main: self)
 
     }
     

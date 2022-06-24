@@ -45,6 +45,14 @@
 		41C5D46F2833739B008D5748 /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C5D46E2833739B008D5748 /* PickerViewController.swift */; };
 		41CA2A6C28518692009C1FAE /* CompleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CA2A6B28518692009C1FAE /* CompleteViewController.swift */; };
 		41CA2A6E28518A53009C1FAE /* utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CA2A6D28518A53009C1FAE /* utilities.swift */; };
+		41E4948D2861815E00B2098C /* OrangeCompleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E4948C2861815E00B2098C /* OrangeCompleteViewController.swift */; };
+		41E4948F286181B200B2098C /* GreenCompleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E4948E286181B200B2098C /* GreenCompleteViewController.swift */; };
+		41E4949228643FF300B2098C /* DayChangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E4949128643FF300B2098C /* DayChangeViewController.swift */; };
+		41E494942864427700B2098C /* TimeTouchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E494932864427700B2098C /* TimeTouchViewController.swift */; };
+		41E494962864454400B2098C /* EscapeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E494952864454400B2098C /* EscapeViewController.swift */; };
+		41E4949828644FA100B2098C /* ZoominViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E4949728644FA100B2098C /* ZoominViewController.swift */; };
+		41E4949A286453E100B2098C /* Escape1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E49499286453E100B2098C /* Escape1ViewController.swift */; };
+		41E4949C2864553400B2098C /* BlueCompleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E4949B2864553400B2098C /* BlueCompleteViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -88,6 +96,14 @@
 		41C5D46E2833739B008D5748 /* PickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
 		41CA2A6B28518692009C1FAE /* CompleteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteViewController.swift; sourceTree = "<group>"; };
 		41CA2A6D28518A53009C1FAE /* utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = utilities.swift; sourceTree = "<group>"; };
+		41E4948C2861815E00B2098C /* OrangeCompleteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrangeCompleteViewController.swift; sourceTree = "<group>"; };
+		41E4948E286181B200B2098C /* GreenCompleteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenCompleteViewController.swift; sourceTree = "<group>"; };
+		41E4949128643FF300B2098C /* DayChangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayChangeViewController.swift; sourceTree = "<group>"; };
+		41E494932864427700B2098C /* TimeTouchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTouchViewController.swift; sourceTree = "<group>"; };
+		41E494952864454400B2098C /* EscapeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscapeViewController.swift; sourceTree = "<group>"; };
+		41E4949728644FA100B2098C /* ZoominViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoominViewController.swift; sourceTree = "<group>"; };
+		41E49499286453E100B2098C /* Escape1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Escape1ViewController.swift; sourceTree = "<group>"; };
+		41E4949B2864553400B2098C /* BlueCompleteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueCompleteViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +171,9 @@
 			children = (
 				418D74AD284DAAA3008B9BA2 /* HomeViewController.swift */,
 				41CA2A6B28518692009C1FAE /* CompleteViewController.swift */,
+				41E4948C2861815E00B2098C /* OrangeCompleteViewController.swift */,
+				41E4948E286181B200B2098C /* GreenCompleteViewController.swift */,
+				41E4949B2864553400B2098C /* BlueCompleteViewController.swift */,
 			);
 			path = Defaults;
 			sourceTree = "<group>";
@@ -202,6 +221,7 @@
 		41C5D45328335FDE008D5748 /* PhoneDle */ = {
 			isa = PBXGroup;
 			children = (
+				41E4949028643E6100B2098C /* Blue */,
 				414DC651284F0CC300363498 /* extensions */,
 				414DC64E284F0B0300363498 /* Purple */,
 				418D74B4284DBA3D008B9BA2 /* Green */,
@@ -217,6 +237,18 @@
 				415F29972845468B0053271B /* extension-UIView.swift */,
 			);
 			path = PhoneDle;
+			sourceTree = "<group>";
+		};
+		41E4949028643E6100B2098C /* Blue */ = {
+			isa = PBXGroup;
+			children = (
+				41E4949128643FF300B2098C /* DayChangeViewController.swift */,
+				41E494932864427700B2098C /* TimeTouchViewController.swift */,
+				41E494952864454400B2098C /* EscapeViewController.swift */,
+				41E4949728644FA100B2098C /* ZoominViewController.swift */,
+				41E49499286453E100B2098C /* Escape1ViewController.swift */,
+			);
+			path = Blue;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,13 +326,17 @@
 				415F2996284542C20053271B /* StackviewViewController.swift in Sources */,
 				41C5D46F2833739B008D5748 /* PickerViewController.swift in Sources */,
 				414DC653284F0CD100363498 /* BorderAnimation1.swift in Sources */,
+				41E4948F286181B200B2098C /* GreenCompleteViewController.swift in Sources */,
 				41C5D45528335FDE008D5748 /* AppDelegate.swift in Sources */,
 				414DC65C284F136200363498 /* LongTouchCollectionViewCell.swift in Sources */,
+				41E494962864454400B2098C /* EscapeViewController.swift in Sources */,
 				418D74B2284DAB77008B9BA2 /* LevelCollectionViewCell.swift in Sources */,
 				41C5D46B28336692008D5748 /* RGBSliderViewController.swift in Sources */,
 				415F294C283D17A00053271B /* HelloWorldViewController.swift in Sources */,
 				41CA2A6E28518A53009C1FAE /* utilities.swift in Sources */,
 				41C5D45728335FDE008D5748 /* SceneDelegate.swift in Sources */,
+				41E4949228643FF300B2098C /* DayChangeViewController.swift in Sources */,
+				41E4948D2861815E00B2098C /* OrangeCompleteViewController.swift in Sources */,
 				415F29982845468B0053271B /* extension-UIView.swift in Sources */,
 				418D74B6284DBB22008B9BA2 /* DragViewController.swift in Sources */,
 				418D74AE284DAAA3008B9BA2 /* HomeViewController.swift in Sources */,
@@ -313,15 +349,19 @@
 				414DC65E284F157500363498 /* BorderAnimation2.swift in Sources */,
 				414DC666284F186B00363498 /* Reachability.swift in Sources */,
 				418D74BC284DC006008B9BA2 /* AlertViewController.swift in Sources */,
+				41E494942864427700B2098C /* TimeTouchViewController.swift in Sources */,
+				41E4949A286453E100B2098C /* Escape1ViewController.swift in Sources */,
 				414DC664284F179500363498 /* ShakeYourPhoneViewController.swift in Sources */,
 				418D74BE284DC092008B9BA2 /* DatePickerViewController.swift in Sources */,
 				41C5D469283360DA008D5748 /* RouletteViewController.swift in Sources */,
 				415F299A28454EFB0053271B /* TextButtonViewController.swift in Sources */,
 				414DC660284F15BA00363498 /* ScreenShotDetectViewController.swift in Sources */,
+				41E4949828644FA100B2098C /* ZoominViewController.swift in Sources */,
 				41CA2A6C28518692009C1FAE /* CompleteViewController.swift in Sources */,
 				418D74C5284DC6C8008B9BA2 /* TableButtonViewController.swift in Sources */,
 				418D74B8284DBD50008B9BA2 /* NoTapViewController.swift in Sources */,
 				414DC659284F131A00363498 /* RandomTimeTouchViewController.swift in Sources */,
+				41E4949C2864553400B2098C /* BlueCompleteViewController.swift in Sources */,
 				414DC655284F0D6100363498 /* EdgeSwipeViewController.swift in Sources */,
 				414DC657284F11A000363498 /* RandomTextViewController.swift in Sources */,
 				418D74BA284DBED1008B9BA2 /* OrderTouchViewController.swift in Sources */,

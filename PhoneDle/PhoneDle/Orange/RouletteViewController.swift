@@ -28,7 +28,7 @@ class RouletteViewController: UIViewController {
         if firstIndex == secondIndex && secondIndex == thirdIndex {
             DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 0.3) {
                 colorall(index: 8)
-                complete(main: self)
+                completeO(main: self)
             }
            
 

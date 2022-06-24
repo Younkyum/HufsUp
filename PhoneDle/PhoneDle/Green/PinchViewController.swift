@@ -21,7 +21,7 @@ class PinchViewController: UIViewController, UIScrollViewDelegate {
         scrollView.maximumZoomScale = 10.0
         if scrollView.zoomScale > 1.5 {
             colorall(index: 53)
-            complete(main: self)
+            completeG(main: self)
         }
     }
     

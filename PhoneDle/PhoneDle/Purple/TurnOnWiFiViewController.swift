@@ -50,6 +50,6 @@ class TurnOnWiFiViewController: UIViewController {
     
     @objc func statusManager(_ notification: Notification) {
         updateUserInterface()
-    }
+    };
 
 }

@@ -193,6 +193,24 @@ extension HomeViewController: UICollectionViewDelegate, UICollectionViewDataSour
             nextVC.modalPresentationStyle = UIModalPresentationStyle.fullScreen
             self.navigationController?.pushViewController(nextVC, animated: true)
             
+        // MARK: - blue = [36, 37, 43, 44]
+        case 36:
+            guard let nextVC = self.storyboard?.instantiateViewController(withIdentifier: "DayChangeViewController") as? DayChangeViewController else {return}
+            nextVC.modalPresentationStyle = UIModalPresentationStyle.fullScreen
+            self.navigationController?.pushViewController(nextVC, animated: true)
+        case 37:
+            guard let nextVC = self.storyboard?.instantiateViewController(withIdentifier: "TimeTouchViewController") as? TimeTouchViewController else {return}
+            nextVC.modalPresentationStyle = UIModalPresentationStyle.fullScreen
+            self.navigationController?.pushViewController(nextVC, animated: true)
+        case 43:
+            guard let nextVC = self.storyboard?.instantiateViewController(withIdentifier: "Escape1ViewController") as? Escape1ViewController else {return}
+            nextVC.modalPresentationStyle = UIModalPresentationStyle.fullScreen
+            self.navigationController?.pushViewController(nextVC, animated: true)
+        case 44:
+            guard let nextVC = self.storyboard?.instantiateViewController(withIdentifier: "ZoominViewController") as? ZoominViewController else {return}
+            nextVC.modalPresentationStyle = UIModalPresentationStyle.fullScreen
+            self.navigationController?.pushViewController(nextVC, animated: true)
+            
         // MARK: - Default
         default:
             print("There is no levels")

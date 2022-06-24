@@ -22,7 +22,7 @@ class AlertViewController: UIViewController {
         let yes = UIAlertAction(title: "YES", style: .default, handler: {
             action in
             colorall(index: 51)
-            complete(main: self)
+            completeG(main: self)
         })
         let no = UIAlertAction(title: "NO", style: .destructive, handler: nil)
         
